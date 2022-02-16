@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Anique Akhtar </title>
+</head>
+<body>
+<div id="layout-content">
+<div id="toptitle">
+<h1>Anique Akhtar </h1>
+</div>
+<h2><a href="http://aniqueakhtar.myweb.usf.edu/">Home</a></h2>
+<div class="infoblock">
+<div class="blockcontent">
+<h2><b>Directional MAC Protocol for IEEE 802.11ad WLANs</b> <i></i> <a href="../../Docs/Directional_MAC_Protocol.pdf">(PDF)</a></h2>
+<ul>
+<li><p>Advisor: <a href="http://home.ku.edu.tr/~sergen/">Dr. Sinem Coleri Ergen</a></p>
+</li>
+</ul>
+<ul>
+<li><p><b>Abstract:</b> <br />
+Millimeter-wave (mmWave) communications is a promising technology that enables high rate (Giga-bit) multimedia applications. 
+We consider the directional multigigabit (DMG) transmission problem in IEEE 802.11ad wireless local area network (WLAN). 
+Traditional directional MAC uses Network Allocation Vector (NAV) to decrease collisions drastically by making nodes which have their NAV set, 
+defer their communication. Directional MAC protocols usually implement either directional RTS/CTS (DRTS/DCTS), multi-directional sequential 
+(Circular) RTS/CTS (CRTS/CCTS) or multi-directional concurrent RTS/CTS control packets. IEEE 802.11ad MAC implements an A-BFT phase where each 
+node beamforms (BF) with the Access Point (AP). In this thesis, we propose a Directional MAC protocol for Basic STAs (DMBS) that uses DRTS/DCTS 
+as well as CRTS/CCTS control packets along with two NAVs (NAV1 and NAV2) to fully leverage spatial reusability and tackle deafness and hidden 
+terminal problem without using any complicated hardware. DMBS makes each node keep a beamforming table (BF table) to store location information 
+of other nodes. We implement an Intelligent Listening during A-BFT (ILA) mechanism where STAs gather beamforming information by listening to the 
+channel during A-BFT phase and update their BF table. This considerably reduces the overall network beamforming associated overhead. 
+Furthermore, if a node already have BF information of the destination node, it uses DRTS/DCTS packet to communicate otherwise CRTS/CCTS packet 
+is used to gather location information. This assures that the control overhead is minimal and the protocol doesn't have to use any complicated 
+technique or hardware or rely on upper layers for location tracking. NAV1 keeps a list of all the nodes that are busy and is set every time a RTS/CTS 
+packet is received. A node would not initiate communication with a node that is in NAV1 subsequently reducing deafness. With the help of RTS/CTS 
+control packets received, the nodes determine whether they can cause interference to an ongoing communication. NAV2 is only set if a node can cause 
+interference to an ongoing communication. If NAV2 is set, then the node defers its multi-directional communication but still communicates directionally. 
+This increases spatial reusability all the while keeping interference minimal which increases the overall network throughput. 
+We perform extensive simulations by comparing DMBS with other commonly used protocols and by comparing different features of DMBS in different scenarios. 
+Simulations demonstrate that the DMBS improves the network throughput considerably, especially at higher network size.</p>
+</li>
+</ul>
+<ul>
+<li><p><b>Novelties:</b><br /></p>
+<ul>
+<li><p>A full Directional MAC for Basic STAs (DMBS) protocol that works without any aditional hardware.</p>
+</li>
+<li><p>Combines the usage of both DRTS/DCTS and CRTS/CCTS control packets. CRTS/CCTS packet is used when the location information of the other node 
+is not available or is outdated where as DRTS/DCTS is used when the location is already known. </p>
+</li>
+<li><p>Intelligent Listening during A-BFT (ILA) mechanism is proposed in which the stations gather beamforming/location information of their neighboring nodes.</p>
+</li>
+<li><p>DMBS employs two NAVs: NAV1 and NAV2. NAV1 is used to keep a list of all the busy nodes in order to resolve the deafness problem. NAV2 is used to determine
+the interfering links in order to resolve hidden terminal problem while exploiting spatial reusability.</p>
+</li>
+<li><p>DMBS does not require any additional hardware for tracking the location of neighboring nodes nor any complex receiver for determining the direction of
+incoming packets.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p><b>Simulations:</b><br /></p>
+<ul>
+<li><p>The simulations are performed in an event-based simulator created in MATLAB, called MMWAVEMAC.</p>
+</li>
+<li><p>We provide the source code for MMWAVEMAC on this page and also explain the working of the simulator.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+</div></div>
+<div class="infoblock">
+<div class="blockcontent">
+<h3><b>MMWAVEMAC:</b><br /></h3>
+<ul>
+<li><p>An event based MAC protocol simulator for directional communication in MATLAB. </p>
+</li>
+<li><p>MMWAVEMAC is used to compare DMBS with five previously proposed protocols. The codes for all of these protocols are provided below.</p>
+</li>
+<li><p><b>Simulation Code:</b></p>
+<ul>
+<li><p>Directional MAC protocol for Basic STAs <a href="./DMBS.rar">(<b>DMBS</b>)</a>. </p>
+</li>
+<li><p>Basic DMAC <a href="./DRTS-DCTS.rar">(<b>BDMAC</b>)</a>. </p>
+</li>
+<li><p>Circular RTS and CTS MAC <a href="./CRTS-CCTS-0.rar">(<b>CRCM</b>)</a>. </p>
+</li>
+<li><p>CRCM Without Deferring on control packets <a href="./CRTS-CCTS-1.rar">(<b>CRCM-W/0-D</b>)</a>. </p>
+</li>
+<li><p>Circular and Directional control packets Hybrid MAC <a href="./CRTS-CCTS-DRTS-DCTS-0.rar">(<b>CDHM</b>)</a>. </p>
+</li>
+<li><p>CDHM Without Deferring on control packets <a href="./CRTS-CCTS-DRTS-DCTS-1.rar">(<b>CDHM-W/0-D</b>)</a>. </p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p>The code is fully commented and is easy to understand. If there are still any questions, you can reach us at <i>aakhtar13@ku.edu.tr<br /> </i></p>
+</li>
+</ul>
+</div></div>
+<div class="infoblock">
+<div class="blockcontent">
+<ul>
+<li><p><b>Conclusion:</b><br />
+In this work, we propose a Directional MAC for Basic STA (DMBS) protocol that uses DRTS/DCTS as well as CRTS/CCTS control packets along with two NAVs 
+(NAV1 and NAV2) to fully leverage spatial reusability and tackle deafness, hidden terminal and location problem without using any complicated hardware. 
+We implement an Intelligent Listening during A-BFT (ILA) mechanism where STAs gather beamforming information by listening to the channel during A-BFT 
+phase and update their BF table. We make use of CRTS/CCTS packets to collect location information and use DRTS/DCTS packets for communication. 
+Furthermore, nodes detect using received control packets whether they can cause interference to an ongoing communication. If they can cause interference, 
+they defer only their circular communication. Simulation results show that DMBS out performs other protocols in almost all scenarios with both mobile 
+and stationary nodes even when we have single destination or multiple destinations. The improvement is higher when each node has multiple destinations 
+which is due to DMBS features that minimizes overhead and tracks the location of other nodes. Simulation results show that NAV1 helps with deafness 
+problem whereas NAV2 mechanism helps eliminate the hidden terminal problem. ILA mechanism and updating BF table on the reception of each control packet 
+helps with location tracking and decreases the beamforming associated overhead of the system. This in turns helps protocol leverage spatial diversity.</p>
+</li>
+</ul>
+</div></div>
+<div id="footer">
+<div id="footer-text">
+Page generated 2022-02-15 19:45:29 CST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</div>
+</body>
+</html>
