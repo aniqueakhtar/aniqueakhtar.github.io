@@ -4,52 +4,48 @@
 {}{img_left}{./Figures/photo3.jpg}{Photo}{302px}{403px}{}
 
 Anique Akhtar \n
-Senior Engineer at Qualcomm Inc. \n
-Ph.D. Doctorate in Computer and Electrical Engineering from \n
-University of Missouri - Kansas City, Missouri, USA \n
-Advisor: [http://l.web.umkc.edu/lizhu/ Dr. Zhu Li]\n
+Qualcomm Inc. \n
+Ph.D. Doctorate in Computer and Electrical Engineering
 
 [https://scholar.google.com/citations?hl=en&user=hL-LaAQAAAAJ&sortby=pubdate Google Scholar Link] \n
 [https://www.linkedin.com/in/aniqueakhtar/ LinkedIn]
-
+\n\n\n\n\n\n\n\n
 ~~~
 ~~~
 \n
-Machine learning researcher with experience in deep learning, data compression, computer vision, and generative modeling. Currently working as a Senior Engineer at Qualcomm Inc. working in the Multimedia, Research, and Development (MMRND) team in San Diego, California. \n\n
-I completed my Ph.D. in Computer and Electrical Engineering from University of Missouri - Kansas City. During my doctorate, I was working under [http://l.web.umkc.edu/lizhu/ Dr. Zhu Li] in the Multimedia Computing \& Communication Lab.\n\n
-I did my M.S. in Electrical Engineering from [http://www.ku.edu.tr/ Koc University], Istanbul, Turkey,
- where I worked under [https://mysite.ku.edu.tr/scoleri/ Dr. Sinem Coleri Ergen] in the [http://wnl.ku.edu.tr/ Wireless Networks Laboratory] on 60 GHz directional wireless Communication.\n\n
-Prior to coming to Koc University, I did my B.Sc in Electrical Engineering at [http://www.lums.edu.pk/ Lahore University of Management Sciences (LUMS)], Lahore, Pakistan.
+I am a machine learning researcher specializing in deep learning, data compression, computer vision, and generative modeling. Currently, I work as a Senior Engineer at Qualcomm Inc. on the Multimedia Research and Development (MMRND) team in San Diego, California, where I focus on advancing cutting-edge multimedia technologies. \n\n
+I earned my Ph.D. in Computer and Electrical Engineering from the University of Missouri–Kansas City, conducting research under [http://l.web.umkc.edu/lizhu/ Dr. Zhu Li] in the Multimedia Computing & Communication Lab. My doctoral work centered on innovative approaches to multimedia systems and machine learning.\n\n
+Before that, I completed my M.S. in Electrical Engineering at [http://www.ku.edu.tr/ Koç University], Istanbul, Turkey,
+ where I worked with [https://mysite.ku.edu.tr/scoleri/ Dr. Sinem Coleri Ergen] in the [http://wnl.ku.edu.tr/ Wireless Networks Laboratory] on 60 GHz directional wireless Communication.\n\n
+My academic journey began with a B.Sc. in Electrical Engineering from [http://www.lums.edu.pk/ Lahore University of Management Sciences (LUMS)] in Lahore, Pakistan, laying the foundation for my passion for advanced communication systems and AI-driven technologies.
 \n
 
 
 ~~~
 == Announcements
-- Four patents published in *2024*
+- Inventor in ten patents. *2025*
+- ICIP publication: "J-SGFT: Joint Spatial and Graph Fourier Domain Learning for Point Cloud Attribute Deblocking". *2025*
+- Inventor in four patents. *2024*
 - Publication in Transactions on Image Processing (TIP). "Inter-Frame Compression for Dynamic Point Cloud Geometry Coding". *2024*
-- ICIP conference publication: "ResNeRF-PCAC: Super Resolving Residual Learning NeRF for High Efficiency Point Cloud Attributes Coding". *2024*
+- ICIP publication: "ResNeRF-PCAC: Super Resolving Residual Learning NeRF for High Efficiency Point Cloud Attributes Coding". *2024*
 - MMSP publication: "Sparse Convolution Based Point Cloud Attributes Deblocking with Graph Fourier Latent Representation". *2024*
 - Qualcomm recognition as an IP contributor. *2023*
 - Recipient of the annual award for *Outstanding Doctoral Student in Electrical and Computer Engineering* for the academic year 2021-22. *May 2022*
-- Made an official contribution and presented work in /MPEG WG 07 3D Graphics Coding/ meeting regarding dynamic point cloud coding. *April 2022*
-- Invited to /MPEG WG 07 3D Graphics Coding/ meeting as a point cloud expert. *April 2022*
-- /Dynamic Point Cloud Coding/ work submitted to a conference. *April 2022*
 - /PU-Dense/ work accepted in Transactions on Image Processing (TIP). *March 2022*
-- /Dynamic Point Cloud Interpolation/ work accepted in ICASSP. *Feb 2022*
 ~~~
 
 
 ~~~
 == Research
+- Gaussian Splatting.
 - Video-based dynamic mesh coding (V-DMC).
-- MPEG WG7 3DGCH: V-DMC and AI-PCC.
+- MPEG WG7 3DGCH: GSC, V-DMC, AI-PCC, V-PCC, G-PCC.
 - Inter-frame and Intra-frame Point Cloud Prediction Schemes.
 - End-to-end Point Cloud Compression.
 - Point Cloud Upsampling.
 - 3D Point Cloud Semantic Segmentation.
 - 3D Point Cloud Denoising and Outlier Removal.
-- Point Cloud Deep Learning Solutions.
-- Low Latency Visual Communication.
+- Deep Learning-based Point Cloud Processing.
 - Neural Networks and Deep Learning.
 - Wireless Networks (LTE and 5G).
 - OFDM and Waveform design.
@@ -58,7 +54,80 @@ Prior to coming to Koc University, I did my B.Sc in Electrical Engineering at [h
 - mmWave Directional Communication.
 ~~~
 
-== Project Work
+
+~~~
+== Relevant Publications
+- M. Talha, Q. Yang, Z. Li, *A. Akhtar*, G. Van Der Auwera. “J-SGFT: Joint Spatial and Graph Fourier Domain Learning for Point Cloud Attribute Deblocking”.
+\nIEEE International Conference on Image Processing (ICIP), 2025.
+\n\n
+- *A. Akhtar*, Z. Li, and G. Van der Auwera, “Inter-Frame Compression for Dynamic Point Cloud Geometry Coding”
+\nIEEE Transactions on Image Processing (TIP). 2024. [https://arxiv.org/abs/2207.12554 (arxiv)] [https://ieeexplore.ieee.org/document/10380494/ (link)]
+\n\n
+- S. Umair, B. Kathariya, Z. Li, *A. Akhtar*, G. Van der Auwera. “ResNeRF-PCAC: Super Resolving Residual Learning NeRF for High Efficiency Point Cloud Attributes Coding”.
+\nIEEE International Conference on Image Processing (ICIP), 2024. [https://ieeexplore.ieee.org/abstract/document/10648090 (link)]
+\n\n
+- M. Talha, B. Kathariya, Z Li, *A. Akhtar*, G. Van der Auwera. “Sparse Convolution Based Point Cloud Attributes Deblocking with Graph Fourier Latent Representation”.
+\nInternational Workshop on Multimedia Signal Processing (MMSP), 2024. [https://ieeexplore.ieee.org/abstract/document/10743459 (link)]
+\n\n
+- *A. Akhtar*, Z. Li, G. Van der Auwera, L. Li, and J. Chen, “PU-Dense: Sparse Tensor-based Point Cloud Geometry Upsampling” *[https://aniqueakhtar.github.io/publications/PU-Dense (Project Page)]* [https://github.com/aniqueakhtar/PointCloudUpsampling (GitHub)]
+\nIEEE Transactions on Image Processing (TIP). 2022 [https://ieeexplore.ieee.org/abstract/document/9794916 (link)]
+\n\n
+- *A. Akhtar*, Z. Li, G. Van der Auwera, and J. Chen, “Dynamic Point Cloud Interpolation”
+\nIEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2022. [https://ieeexplore.ieee.org/abstract/document/9747105 (link)]
+\n\n
+- *A. Akhtar*, W. Gao, L. Li, Z. Li, W. Jia, and S. Liu, "Video-based Point Cloud Compression Artifact Removal",
+\n IEEE Transactions on Multimedia (T-MM), 2021. [https://arxiv.org/abs/2107.14179 (arxiv)]
+\n\n
+- W. Jia, L. Li, *A. Akhtar*, Z. Li, and S. Liu, “Convolutional Neural Network-based Occupancy Map Accuracy Improvement for Video-based Point Cloud Compression”,
+\n IEEE Transactions on Multimedia (T-MM), 2021.
+\n\n
+- *A. Akhtar*, W. Gao, L. Li, Z. Li, X. Zhang, and S. Liu, "Point Cloud Geometry Prediction Across Spatial Scale using Deep Learning",
+\n IEEE Visual Communication & Image Processing Conf (VCIP), Hong Kong, 2020.
+\n\n
+- *A. Akhtar*, J. Ma, R. Shafin, J. Bai, L. Li, Z. Li, L. Liu, "Low Latency Scalable Point Cloud Communication in VANETs using V2I Communication"
+\n IEEE International Conference on Communications (ICC), Shanghai, China. 2019.
+\n\n
+- *A. Akhtar*, B. Kathariya, Z. Li, "Low Latency Scalable Point Cloud Communication"
+\n IEEE International Conference on Image Processing (ICIP), Taipei, Taiwan. 2019.
+\n\n
+- *A. Akhtar*, H. Arslan, "Downlink Resource Allocation and Packet Scheduling in Multi-Numerology Wireless Systems"
+\n IEEE Wireless Communications and Networking Conference (IEEE WCNC), 2018.
+\n\n
+- *A. Akhtar*, S. Coleri Ergen, "Directional MAC Protocol for IEEE 802.11ad WLANs"
+\n Ad Hoc Networks, 2018.  *([https://aniqueakhtar.github.io/publications/MAC/DMBS.html Protocol's website with explanation and open source code])*
+\n\n
+- *A. Akhtar*, S. Coleri Ergen, "Efficient Network Level Beamforming Training for IEEE 802.11ad WLANs"
+\n International Symposium on Performance Evaluation of Computer and Telecommunication Systems (SPECTS 2015), Chicago, Illinois, US. July 2015
+~~~
+
+
+~~~
+== Work Experience
+- *[https://www.qualcomm.com/ Qualcomm]*.   Current: (January. 2022 - Present) \n
+-- Video-based dynamic mesh coding (V-DMC).
+-- MPEG WG7 3DGCH: GSC, V-DMC, AI-PCC, V-PCC, G-PCC.
+-- Inter-Frame and Intra-Frame Dynamic Point Cloud Compression using Deep Learning.
+-- Deep Learning-based Point Cloud Interpolation.
+-- Point Cloud Upsampling using Deep Learning.
+
+
+- *[https://www.tencent.com/ Tencent]*.   3 months: (June. 2020 - Aug 2020) \n
+-- Video-based Point Cloud Compression (V-PCC) Artifact Removal.
+-- Point Cloud Geometry Prediction.
+-- 3D Point Cloud Denoising.
+-- End-to-End Point Cloud Compression (PCC).
+
+- *[https://www.here.com/en HERE Technologies]*.  6 months: (June. 2019 - Nov 2019) \n
+-- 2D Building Tracking, Segmentation, and Instance Segmentation.
+-- 2D Facade Segmentation and Portal Detection.
+-- 3D Point Cloud Semantic Segmentation.
+
+- *[https://www.here.com/en HERE Technologies]*.    3 months: (June. 2018 - Aug 2018) \n
+-- 3D Point Cloud Segmentation.
+~~~
+
+
+== Previous Projects
 
 ~~~
 {}{img_left}{./Figures/Inter-prediction.png}{alt text}{510px}{}{}
@@ -198,106 +267,9 @@ Summer Internship at [https://www.here.com/en HERE Technologies].
 
 
 ~~~
-== Relevant Publications
-- S. Umair, B. Kathariya, Z. Li, *A. Akhtar*, G. Van der Auwera. “ResNeRF-PCAC: Super Resolving Residual Learning NeRF for High Efficiency Point Cloud Attributes Coding”.
-\nIEEE International Conference on Image Processing (ICIP), 2024. [https://ieeexplore.ieee.org/abstract/document/10648090 (link)]
-\n\n
-- M. Talha, B. Kathariya, Z Li, *A. Akhtar*, G. Van der Auwera. “Sparse Convolution Based Point Cloud Attributes Deblocking with Graph Fourier Latent Representation”.
-\nInternational Workshop on Multimedia Signal Processing (MMSP), 2024. [https://ieeexplore.ieee.org/abstract/document/10743459 (link)]
-\n\n
-- *A. Akhtar*, Z. Li, and G. Van der Auwera, “Inter-Frame Compression for Dynamic Point Cloud Geometry Coding”
-\nIEEE Transactions on Image Processing (TIP). 2024. [https://arxiv.org/abs/2207.12554 (arxiv)]
-\n\n
-- *A. Akhtar*, Z. Li, G. Van der Auwera, L. Li, and J. Chen, “PU-Dense: Sparse Tensor-based Point Cloud Geometry Upsampling” *[https://aniqueakhtar.github.io/publications/PU-Dense (Project Page)]* [https://github.com/aniqueakhtar/PointCloudUpsampling (GitHub)]
-\nIEEE Transactions on Image Processing (TIP). 2022 [https://ieeexplore.ieee.org/abstract/document/9794916 (link)]
-\n\n
-- *A. Akhtar*, Z. Li, G. Van der Auwera, and J. Chen, “Dynamic Point Cloud Interpolation”
-\nIEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2022. [https://ieeexplore.ieee.org/abstract/document/9747105 (link)]
-\n\n
-- *A. Akhtar*, W. Gao, L. Li, Z. Li, W. Jia, and S. Liu, "Video-based Point Cloud Compression Artifact Removal",
-\n IEEE Transactions on Multimedia (T-MM), 2021. [https://arxiv.org/abs/2107.14179 (arxiv)]
-\n\n
-- W. Jia, L. Li, *A. Akhtar*, Z. Li, and S. Liu, “Convolutional Neural Network-based Occupancy Map Accuracy Improvement for Video-based Point Cloud Compression”,
-\n IEEE Transactions on Multimedia (T-MM), 2021.
-\n\n
-- *A. Akhtar*, W. Gao, L. Li, Z. Li, X. Zhang, and S. Liu, "Point Cloud Geometry Prediction Across Spatial Scale using Deep Learning",
-\n IEEE Visual Communication & Image Processing Conf (VCIP), Hong Kong, 2020.
-\n\n
-- *A. Akhtar*, J. Ma, R. Shafin, J. Bai, L. Li, Z. Li, L. Liu, "Low Latency Scalable Point Cloud Communication in VANETs using V2I Communication"
-\n IEEE International Conference on Communications (ICC), Shanghai, China. 2019.
-\n\n
-- *A. Akhtar*, B. Kathariya, Z. Li, "Low Latency Scalable Point Cloud Communication"
-\n IEEE International Conference on Image Processing (ICIP), Taipei, Taiwan. 2019.
-\n\n
-- *A. Akhtar*, H. Arslan, "Downlink Resource Allocation and Packet Scheduling in Multi-Numerology Wireless Systems"
-\n IEEE Wireless Communications and Networking Conference (IEEE WCNC), 2018.
-\n\n
-- *A. Akhtar*, S. Coleri Ergen, "Directional MAC Protocol for IEEE 802.11ad WLANs"
-\n Ad Hoc Networks, 2018.  *([https://aniqueakhtar.github.io/publications/MAC/DMBS.html Protocol's website with explanation and open source code])*
-\n\n
-- *A. Akhtar*, S. Coleri Ergen, "Efficient Network Level Beamforming Training for IEEE 802.11ad WLANs"
-\n International Symposium on Performance Evaluation of Computer and Telecommunication Systems (SPECTS 2015), Chicago, Illinois, US. July 2015
-~~~
-
-~~~
-== Patents
-- *A. Akhtar*, G. Van der Auwera, A.K. Ramasubramonian, and M. Karczewicz, Qualcomm Inc, 2024. Attribute coding and upscaling for point cloud compression. U.S. Patent App. 18/632,140.
-\n\n
-- *A. Akhtar*, G. Van der Auwera, A.K. Ramasubramonian, and M. Karczewicz, Qualcomm Inc, 2024. Attribute coding for point cloud compression. U.S. Patent Application 18/624,683.
-\n\n
-- *A. Akhtar*, G. Van der Auwera, A.K. Ramasubramonian, and M. Karczewicz, Qualcomm Inc, 2024. Attribute coding for point cloud compression. U.S. Patent Application 18/490,467.
-\n\n
-- *A. Akhtar*, W. Gao, X. Zhang, and S. Liu, Tencent America LLC, 2024. Point cloud geometry upsampling. U.S. Patent 11,893,691.
-\n\n
-- *A. Akhtar*, G. Van der Auwera, A.K. Ramasubramonian, M. Karczewicz and L.P. Van, Qualcomm Inc, 2023. Geometry coordinate scaling for AI-based dynamic point cloud coding. U.S. Patent Application 18/318,498.
-~~~
-
-~~~
-== Notable MPEG Contributions
-
-- *Anique Akhtar*, Geert Van der Auwera, Adarsh Krishnan Ramasubramonian, Reetu Hooda, Marta Karczewicz “\[V-DMC\]\[EE4.4\] Report on EE 4.4g on context selection for normals”, MPEG-148 Kemer, Doc. m70254, Oct 2024.
-- *Anique Akhtar*, Geert Van der Auwera, Adarsh Krishnan Ramasubramonian, Reetu Hooda, Marta Karczewicz “\[V-DMC\]\[EE4.4\] EE 4.4f on Improvement to normal encoding”, MPEG-148 Kemer, Doc. m69981, Oct 2024.
-- *Anique Akhtar*, Geert Van der Auwera, Adarsh Krishnan Ramasubramonian, Reetu Hooda, Marta Karczewicz “\[V-DMC\]\[EE4.4-related\]\[New\] Basemesh fixed point implementation of normal encoding”, MPEG-148 Kemer, Doc. m69977, Oct 2024.
-- *Anique Akhtar*, Geert Van der Auwera, Reetu Hooda, Adarsh Krishnan Ramasubramonian, Marta Karczewicz “\[V-DMC\]\[EE4.4\] Octahedral Normal Encoding”, MPEG-146 Rennes, Doc. m67554, April 2024.
-- *Anique Akhtar*, Geert Van der Auwera, Reetu Hooda, Adarsh Krishnan Ramasubramonian, Marta Karczewicz “\[V-DMC\]\[EE4.4\] Normal Encoding in V-DMC v7.0”, MPEG-146 Rennes, Doc. m67553, April 2024.
-- *Anique Akhtar*, Geert Van der Auwera, Reetu Hooda, Adarsh Krishnan Ramasubramonian, Marta Karczewicz, “\[V-DMC\]\[New\] Implementation of Normal Encoding in V-DMC TMM v6.0 ”, MPEG-145 Online, Doc. m66553, Jan 2024.
-- *Anique Akhtar*, Geert Van der Auwera, Adarsh Krishnan Ramasubramonian, Marta Karczewicz, “\[AI-3DGC\]\[EE 5.5 related\] Software release for Hybrid AI-based Geometry + G-PCC Attribute Coding”, MPEG-143 Geneva, Doc. m64441, July 2023.
-- *Anique Akhtar*, Geert Van der Auwera, Birendra Kathariya, Adarsh Krishnan Ramasubramonian, Marta Karczewicz, “\[AI-3DGC\]\[EE5.3-related\] Update on baseline attribute compression for ML-based PCC”, MPEG-142 Antalya, Doc. m63255, April 2023.
-- *Anique Akhtar*, Geert Van der Auwera, Birendra Kathariya, Adarsh Krishnan Ramasubramonian, Marta Karczewicz, “\[AI-3DGC\]\[EE5.3-related\] Baseline attribute compression for ML-based PCC”, MPEG-140 Mainz, Doc. m61313, Oct 2022.
-- *Anique Akhtar*, Geert Van der Auwera, Adarsh Krishnan Ramasubramonian, Marta Karczewicz, “\[AI-3DGC\]\[EE5.3 Test 2\] Results dynamic point cloud compression”, MPEG-140 Mainz, Doc. m61201, Oct 2022.
-- *Anique Akhtar*, Zhu Li, Geert Van der Auwera, Adarsh Krishnan Ramasubramonian, Luong Pham Van, Marta Karczewicz, “Dynamic Point Cloud Geometry Compression using Sparse Convolutions”, MPEG-137 Online, Doc. m59617, April 2022.
-~~~
-
-~~~
-== Work Experience
-- *[https://www.qualcomm.com/ Qualcomm]*.   Current: (January. 2022 - Present) \n
--- Video-based dynamic mesh coding (V-DMC).
--- MPEG WG7 3DGCH: V-DMC and AI-PCC.
--- Inter-Frame and Intra-Frame Dynamic Point Cloud Compression using Deep Learning.
--- Deep Learning-based Point Cloud Interpolation.
--- Point Cloud Upsampling using Deep Learning.
-
-
-- *[https://www.tencent.com/ Tencent]*.   3 months: (June. 2020 - Aug 2020) \n
--- Video-based Point Cloud Compression (V-PCC) Artifact Removal.
--- Point Cloud Geometry Prediction.
--- 3D Point Cloud Denoising.
--- End-to-End Point Cloud Compression (PCC).
-
-- *[https://www.here.com/en HERE Technologies]*.  6 months: (June. 2019 - Nov 2019) \n
--- 2D Building Tracking, Segmentation, and Instance Segmentation.
--- 2D Facade Segmentation and Portal Detection.
--- 3D Point Cloud Semantic Segmentation.
-
-- *[https://www.here.com/en HERE Technologies]*.    3 months: (June. 2018 - Aug 2018) \n
--- 3D Point Cloud Segmentation.
-~~~
-
-~~~
 == Education
-- Ph.D. Computer and Electrical Engineering. - August 2016 - present \n
--- University of Missouri - Kansas City, Missouri, USA. - January 2018 - present \n
-Expected Graduation: January 2021 \n
+- Ph.D. Computer and Electrical Engineering. - August 2016 - 2022 \n
+-- University of Missouri - Kansas City, Missouri, USA. - January 2018 - June 2022 \n
 --- Advisor: [http://l.web.umkc.edu/lizhu/ Dr. Zhu Li]
 --- Research: Multimedia Computing \& Communication.
 -- University of South Florida, Tampa, Florida, USA. - August 2016 - December 2017\n
@@ -319,7 +291,7 @@ Graduated: June 2013 \n
 
 ~~~
 == Teaching Experience
-- *University of Missouri-Kansas City* January. 2018 - Present \n
+- *University of Missouri-Kansas City* January. 2018 - 2021 \n
 *Department of Computer Science*
 -- ECE\/CS 479\/5582, Computer Vision - Fall 2021
 -- ECE\/CS 5578, Multimedia Communication - Spring 2021
